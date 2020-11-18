@@ -1,0 +1,1 @@
+This folder is the main repository of files for modeling. As per the folder name, all files have will have naming prefix 'county_site'.

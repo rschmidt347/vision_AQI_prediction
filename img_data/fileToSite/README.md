@@ -1,0 +1,1 @@
+Mappings from files downloaded via the Planet API and the AQI site locations are sent to this folder.

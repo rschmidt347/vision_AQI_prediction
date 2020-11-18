@@ -1,0 +1,1 @@
+If any are found, files with unwanted rotations are fixed and sent to this folder.
