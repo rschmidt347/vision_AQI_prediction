@@ -11,6 +11,8 @@ The root directory features our two best models.
 Our best pixel-level model was a tuned linear SVM. The code to reproduce this model is found in `final_SVM_modeling.ipynb`.
 
 ### Pre-Trained CNN
+![Screenshot](cnn_architecture.png)
+
 Given our small dataset size, we turned to pre-trained networks to aid our classification task. To this end, we leveraged Xception with a fully-connected classification module. This is our best-performing model; the code to reproduce the model is in `final_CNN_modeling.ipynb`.
 
 
@@ -20,6 +22,8 @@ First, go to the `aqi_data` folder and follow the instructions within to downloa
 
 ### 2. Image Data
 Next, download the image data by iterating through the notebooks in the `img_data` folder. The images are ordered via the `Planet.com` API.
+
+![Screenshot](example_images.jpg)
 
 ### 3. Experiment
 Our final tuned SVM and CNN were found via extensive hyperparameter searches. We were able to execute all of our code using Google Colab instances. Records of our experimentation are found in the `experiments` folder.
