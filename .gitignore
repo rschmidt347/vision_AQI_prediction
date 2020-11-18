@@ -1,2 +1,10 @@
-# Ignore checkpoints
+# Python shenanigans
+*.idea/
 *.ipynb_checkpoints/
+*__pycache__/
+
+# Environments
+environment.yml
+
+# Zip files
+*.zip
